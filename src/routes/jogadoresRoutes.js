@@ -1,15 +1,15 @@
 import { Router } from "express";
-import * as jogadoresModel from "../controllers/jogadoresModel.js";
+import * as jogadoresController from "../controllers/jogadoresController.js";
 import { validarId } from "../middlewares/validarId.js";
 
 
 const router = Router();
 
-router.get("/", jogadoresModel.listar);
-router.get("/:id", validarId, jogadoresModel.buscarPorId);
-router.post("/", jogadoresModel.criar);
-router.put("/:id", validarId, jogadoresModel.atualizar);
-router.delete("/:id", validarId, jogadoresModel.excluir);
+router.get("/", jogadoresController.listar);
+router.get("/:id", validarId, jogadoresController.buscarPorId);
+router.post("/", jogadoresController.criar);
+router.put("/:id", validarId, jogadoresController.atualizar);
+router.delete("/:id", validarId, jogadoresController.excluir);
 
 export default router;
 export function textoValido(valor, limite) {
