@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "nome": "Bldep games",
-        "pais": "barsil"
+        "nome": "Giubs |Games",
+        "pais": "Australia"
       }
   auth: inherit
 

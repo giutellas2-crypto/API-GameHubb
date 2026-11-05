@@ -10,9 +10,9 @@ http:
     type: json
     data: |-
       {
-        "nome": "Iago Damazio Amorim",
-        "email": "iagobldep@gmail.com",
-        "nickname": "iagobldep"
+        "nome": "Giulia Gomes Duarte",
+        "email": "giutellas2@gmail.com",
+        "nickname": "giutellas"
       }
   auth: inherit
 
